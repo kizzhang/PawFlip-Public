@@ -1,0 +1,33 @@
+# Web 框架
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+
+# 数据库 - Supabase
+supabase>=2.0.0
+
+# 认证与安全
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+
+# AI 服务
+openai>=1.3.0
+google-generativeai>=0.3.0
+google-adk>=0.3.0
+aiohttp>=3.9.0
+
+# 视频处理 (pet-vision-narrator 集成)
+opencv-python>=4.8.0
+numpy>=1.24.0
+pillow>=10.0.0
+
+# 工具库
+python-dotenv>=1.0.0
+pyyaml>=6.0
+httpx>=0.25.0
+
+# 可选: 本地模型支持
+# transformers>=4.35.0
+# torch>=2.0.0

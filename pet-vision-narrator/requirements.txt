@@ -1,0 +1,27 @@
+# Core dependencies
+# Note: Install PyTorch with CUDA support separately:
+# Or for CPU-only: pip install torch torchvision
+aiohttp>=3.9.0
+numpy>=1.24.0
+opencv-python>=4.8.0
+
+# Local model support - SmolVLM2
+transformers>=4.35.0
+pillow>=10.0.0
+decord>=0.6.0  # Required for video processing
+#flash-attn>=2.0.0  # Optional but recommended for faster inference
+num2words>=0.5.12  # Required by SmolVLM2
+
+# API support
+openai>=1.3.0
+anthropic>=0.7.0  # Optional
+google-generativeai>=0.3.0  # Optional
+
+# Utilities
+python-dotenv>=1.0.0
+
+# REST API Server (for mobile/web app integration)
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+

@@ -1,0 +1,188 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environments
+.env
+.envrc
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Debug outputs
+debug_outputs/
+uploads/
+
+# Model cache
+*.pt
+*.pth
+*.bin
+*.safetensors
+# ==========================================
+# Dependencies
+# ==========================================
+node_modules/
+**/node_modules/
+**/venv/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# ==========================================
+# Build outputs
+# ==========================================
+dist/
+dist-ssr/
+build/
+*.egg-info/
+
+# ==========================================
+# Environment variables
+# ==========================================
+.env
+.env.local
+.env.*.local
+**/.env
+**/.env.local
+
+# ==========================================
+# Logs
+# ==========================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ==========================================
+# Uploads & Generated files
+# ==========================================
+uploads/
+**/uploads/
+models_3d/
+**/models_3d/
+debug_outputs/
+**/debug_outputs/
+
+# ==========================================
+# Test files
+# ==========================================
+test-*.py
+test-*.html
+check-*.py
+*.test.js
+*.test.ts
+*.test.tsx
+
+# ==========================================
+# Documentation (non-essential)
+# ==========================================
+*_SUMMARY.md
+*_FIX_SUMMARY.md
+*_RESOLUTION*.md
+*_COMPLETION*.md
+*_CONFIRMATION*.md
+*_CHECKLIST.md
+DEPLOYMENT_CHECKLIST.md
+DUPLICATE_REGISTRATION_FIX_SUMMARY.md
+FINAL_ISSUE_RESOLUTION.md
+ISSUE_RESOLUTION_SUMMARY.md
+PETVISION_NARRATOR_INIT_FIX_SUMMARY.md
+PROBLEM_SOLVED_CONFIRMATION.md
+PROJECT_COMPLETION_SUMMARY.md
+SOCIAL_LOGIN_VIDEO_FIX_SUMMARY.md
+SOCIAL_VIDEO_UPLOAD_FIX_SUMMARY.md
+README_VIDEO_SERVICE.md
+
+# ==========================================
+# Scripts (non-essential)
+# ==========================================
+start-video-services.bat
+start-video-services.sh
+start.bat
+stop-video-services.sh
+docker-compose.video.yml
+
+# ==========================================
+# IDE & Editor
+# ==========================================
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.kiro/*
+
+# ==========================================
+# OS files
+# ==========================================
+Thumbs.db
+.DS_Store
+*.local
+
+# ==========================================
+# Temporary files
+# ==========================================
+*.tmp
+*.temp
+*.swp
+*.swo
+*~

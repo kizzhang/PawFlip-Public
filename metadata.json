@@ -1,0 +1,8 @@
+{
+  "name": "PawFlip - Intelligent Pet Companion",
+  "description": "An all-in-one AI-powered pet health monitor and social platform. Track your pet's activities, view their perspective through an AI-enhanced camera, and chat with an intelligent medical assistant.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
